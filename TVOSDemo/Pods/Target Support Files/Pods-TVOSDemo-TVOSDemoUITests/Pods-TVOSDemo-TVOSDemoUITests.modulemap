@@ -1,0 +1,6 @@
+framework module Pods_TVOSDemo_TVOSDemoUITests {
+  umbrella header "Pods-TVOSDemo-TVOSDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

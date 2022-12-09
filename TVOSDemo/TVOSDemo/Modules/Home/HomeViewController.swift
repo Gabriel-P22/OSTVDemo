@@ -16,5 +16,4 @@ class HomeViewController: BaseViewController {
         view = customView
         customView.render()
     }
-    
 }
