@@ -19,6 +19,10 @@
 		480262432943F96100D22FDA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262422943F96100D22FDA /* HomeView.swift */; };
 		480262462943FB0D00D22FDA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262452943FB0D00D22FDA /* BaseViewController.swift */; };
 		480262492944036800D22FDA /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262482944036800D22FDA /* AppContainer.swift */; };
+		480262502944057800D22FDA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802624F2944057800D22FDA /* CustomCell.swift */; };
+		4802625329441C4700D22FDA /* CustomComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802625229441C4700D22FDA /* CustomComponentProtocol.swift */; };
+		4802625529441CAA00D22FDA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802625429441CAA00D22FDA /* HomeViewModel.swift */; };
+		4802625829441E0E00D22FDA /* PrincipalFilmsCarrousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802625729441E0E00D22FDA /* PrincipalFilmsCarrousel.swift */; };
 		54534A6FC0C3DBEC603C544F /* Pods_TVOSDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58D3F7AB42705B15379BA68 /* Pods_TVOSDemoTests.framework */; };
 		86FD05942E53AC0C21B13491 /* Pods_TVOSDemo_TVOSDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5500D273CB69E1146715F686 /* Pods_TVOSDemo_TVOSDemoUITests.framework */; };
 		D0D3EF2B775EEFE02292121A /* Pods_TVOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB15228F81A9D06BFAC2C0 /* Pods_TVOSDemo.framework */; };
@@ -59,6 +63,10 @@
 		480262422943F96100D22FDA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		480262452943FB0D00D22FDA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		480262482944036800D22FDA /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		4802624F2944057800D22FDA /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4802625229441C4700D22FDA /* CustomComponentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentProtocol.swift; sourceTree = "<group>"; };
+		4802625429441CAA00D22FDA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4802625729441E0E00D22FDA /* PrincipalFilmsCarrousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalFilmsCarrousel.swift; sourceTree = "<group>"; };
 		5500D273CB69E1146715F686 /* Pods_TVOSDemo_TVOSDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSDemo_TVOSDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B731D2B74DC2A053756F79 /* Pods-TVOSDemo-TVOSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSDemo-TVOSDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TVOSDemo-TVOSDemoUITests/Pods-TVOSDemo-TVOSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F293BCFE0FECBD74DC0F3C8 /* Pods-TVOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSDemo.release.xcconfig"; path = "Target Support Files/Pods-TVOSDemo/Pods-TVOSDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +169,7 @@
 				4802624A294403FC00D22FDA /* LaunchScreen */,
 				480262442943FB0000D22FDA /* Components */,
 				4802623F2943F94000D22FDA /* Home */,
+				4802625629441DA500D22FDA /* PrincipalFIlms */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -205,6 +214,7 @@
 			children = (
 				480262402943F95600D22FDA /* HomeViewController.swift */,
 				480262422943F96100D22FDA /* HomeView.swift */,
+				4802625429441CAA00D22FDA /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -212,6 +222,8 @@
 		480262442943FB0000D22FDA /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4802625129441C3200D22FDA /* TableView */,
+				4802624C294404AC00D22FDA /* CustomCell */,
 				480262472943FB1900D22FDA /* ViewController */,
 			);
 			path = Components;
@@ -239,6 +251,30 @@
 				4802620F2943F5E300D22FDA /* Assets.xcassets */,
 			);
 			path = Src;
+			sourceTree = "<group>";
+		};
+		4802624C294404AC00D22FDA /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4802624F2944057800D22FDA /* CustomCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		4802625129441C3200D22FDA /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4802625229441C4700D22FDA /* CustomComponentProtocol.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		4802625629441DA500D22FDA /* PrincipalFIlms */ = {
+			isa = PBXGroup;
+			children = (
+				4802625729441E0E00D22FDA /* PrincipalFilmsCarrousel.swift */,
+			);
+			path = PrincipalFIlms;
 			sourceTree = "<group>";
 		};
 		53BC24A9BF97C911B9A29521 /* Pods */ = {
@@ -495,10 +531,14 @@
 				480262092943F5E100D22FDA /* AppDelegate.swift in Sources */,
 				4802623C2943F7C900D22FDA /* MainCoordinator.swift in Sources */,
 				4802623E2943F89B00D22FDA /* Coordinator.swift in Sources */,
+				4802625529441CAA00D22FDA /* HomeViewModel.swift in Sources */,
+				480262502944057800D22FDA /* CustomCell.swift in Sources */,
+				4802625829441E0E00D22FDA /* PrincipalFilmsCarrousel.swift in Sources */,
 				480262432943F96100D22FDA /* HomeView.swift in Sources */,
 				480262412943F95600D22FDA /* HomeViewController.swift in Sources */,
 				480262462943FB0D00D22FDA /* BaseViewController.swift in Sources */,
 				480262492944036800D22FDA /* AppContainer.swift in Sources */,
+				4802625329441C4700D22FDA /* CustomComponentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,8 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
-        var vc: UIViewController & Coordinating = HomeViewController()
+        let viewModel: HomeViewModelProtocol = HomeViewModel()
+        var vc: UIViewController & Coordinating = HomeViewController(viewModel: viewModel)
         vc.coordinator = self
         navigationControler?.setViewControllers([vc], animated: true)
     }
