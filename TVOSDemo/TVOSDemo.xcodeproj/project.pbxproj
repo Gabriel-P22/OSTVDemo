@@ -131,10 +131,9 @@
 		480262072943F5E100D22FDA /* TVOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4802624B2944040B00D22FDA /* Src */,
 				480262362943F5F900D22FDA /* infrastruct */,
 				480262352943F5F000D22FDA /* Modules */,
-				4802620F2943F5E300D22FDA /* Assets.xcassets */,
-				480262112943F5E300D22FDA /* LaunchScreen.storyboard */,
 			);
 			path = TVOSDemo;
 			sourceTree = "<group>";
@@ -159,6 +158,7 @@
 		480262352943F5F000D22FDA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4802624A294403FC00D22FDA /* LaunchScreen */,
 				480262442943FB0000D22FDA /* Components */,
 				4802623F2943F94000D22FDA /* Home */,
 			);
@@ -223,6 +223,22 @@
 				480262452943FB0D00D22FDA /* BaseViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4802624A294403FC00D22FDA /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				480262112943F5E300D22FDA /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		4802624B2944040B00D22FDA /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				4802620F2943F5E300D22FDA /* Assets.xcassets */,
+			);
+			path = Src;
 			sourceTree = "<group>";
 		};
 		53BC24A9BF97C911B9A29521 /* Pods */ = {
