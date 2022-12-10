@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				4802624B2944040B00D22FDA /* Src */,
-				480262362943F5F900D22FDA /* infrastruct */,
+				480262362943F5F900D22FDA /* Infrastruct */,
 				480262352943F5F000D22FDA /* Modules */,
 			);
 			path = TVOSDemo;
@@ -165,14 +165,14 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		480262362943F5F900D22FDA /* infrastruct */ = {
+		480262362943F5F900D22FDA /* Infrastruct */ = {
 			isa = PBXGroup;
 			children = (
 				480262392943F6FB00D22FDA /* DI */,
 				480262382943F61700D22FDA /* Coordinator */,
 				480262372943F60E00D22FDA /* Common */,
 			);
-			path = infrastruct;
+			path = Infrastruct;
 			sourceTree = "<group>";
 		};
 		480262372943F60E00D22FDA /* Common */ = {
