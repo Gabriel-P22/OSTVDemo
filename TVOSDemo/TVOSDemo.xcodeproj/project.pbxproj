@@ -18,6 +18,7 @@
 		480262412943F95600D22FDA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262402943F95600D22FDA /* HomeViewController.swift */; };
 		480262432943F96100D22FDA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262422943F96100D22FDA /* HomeView.swift */; };
 		480262462943FB0D00D22FDA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262452943FB0D00D22FDA /* BaseViewController.swift */; };
+		480262492944036800D22FDA /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480262482944036800D22FDA /* AppContainer.swift */; };
 		54534A6FC0C3DBEC603C544F /* Pods_TVOSDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58D3F7AB42705B15379BA68 /* Pods_TVOSDemoTests.framework */; };
 		86FD05942E53AC0C21B13491 /* Pods_TVOSDemo_TVOSDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5500D273CB69E1146715F686 /* Pods_TVOSDemo_TVOSDemoUITests.framework */; };
 		D0D3EF2B775EEFE02292121A /* Pods_TVOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB15228F81A9D06BFAC2C0 /* Pods_TVOSDemo.framework */; };
@@ -57,6 +58,7 @@
 		480262402943F95600D22FDA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		480262422943F96100D22FDA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		480262452943FB0D00D22FDA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		480262482944036800D22FDA /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		5500D273CB69E1146715F686 /* Pods_TVOSDemo_TVOSDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSDemo_TVOSDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B731D2B74DC2A053756F79 /* Pods-TVOSDemo-TVOSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSDemo-TVOSDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TVOSDemo-TVOSDemoUITests/Pods-TVOSDemo-TVOSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F293BCFE0FECBD74DC0F3C8 /* Pods-TVOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSDemo.release.xcconfig"; path = "Target Support Files/Pods-TVOSDemo/Pods-TVOSDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 		480262392943F6FB00D22FDA /* DI */ = {
 			isa = PBXGroup;
 			children = (
+				480262482944036800D22FDA /* AppContainer.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -232,7 +235,6 @@
 				827A79D93D3CE935DA3673C2 /* Pods-TVOSDemoTests.debug.xcconfig */,
 				7B84E6BDEADBBA1543FCE0E4 /* Pods-TVOSDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -480,6 +482,7 @@
 				480262432943F96100D22FDA /* HomeView.swift in Sources */,
 				480262412943F95600D22FDA /* HomeViewController.swift in Sources */,
 				480262462943FB0D00D22FDA /* BaseViewController.swift in Sources */,
+				480262492944036800D22FDA /* AppContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

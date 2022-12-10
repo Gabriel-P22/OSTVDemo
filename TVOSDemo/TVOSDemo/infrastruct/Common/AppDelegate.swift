@@ -7,13 +7,15 @@
 
 import UIKit
 import Foundation
+import Swinject
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var coordinator: MainCoordinator?
-
+    var container = Container()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
  
         let navController = UINavigationController()
